@@ -1,0 +1,77 @@
+.title {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 40px;
+  color: white;
+}
+
+body {
+  margin: 0px;
+  background-color: #2E3B55;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Main-Bg {
+  height: 50vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,10.0)),url(./Images/codingwall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin-top: 55px;
+}
+
+.wrapped-top {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+.inside-content-top {
+  padding: 200px 150px;
+  color: white;
+  width: auto;
+}
+
+.inside-content-top h1 {
+  font-size: 60px;
+}
+  
+.inside-content-top p{
+  margin-bottom: 40px;
+}
+
+.inside-content-top button{
+  border-radius: 20px;
+  background-color: rgb(240, 186, 37);
+}
+
+
+@media (max-width: 430px) {
+  .inside-content-top {
+    padding: 50px 50px;
+  }
+
+  .inside-content-top h1 {
+    font-size: 20px;
+  }
+
+  .inside-content-top p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:1280px) {
+  .inside-content-top {
+    padding: 50px 50px;
+  }
+
+  .inside-content-top h1 {
+    font-size: 40px;
+  }
+}
+
+
+.CoursesCard {
+  justify-content: center;
+  margin-top: 50px;
+}
